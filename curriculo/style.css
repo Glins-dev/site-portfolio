@@ -17,7 +17,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent; /* -obs-  */
+    background-color: #000000; /* -obs-  */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +31,14 @@ body {
     font-weight: 600;
     color: #fff;
 }
+.simbol {
+    color: #da70d6;
+    font-size: 20px;
+}
+
+.dev {
+    color: #da70d6;
+}
 
 .navbar a {
     display: inline-block;
@@ -39,21 +47,23 @@ body {
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    transition: 1.5s;
+    transition: 0.5s;
 }
 
 .navbar a:hover{
-    color: black;
+    color: #da70d6
 }
 
 /* cabeçalho fim */
+
+/* main */
 
 .home {
     position: relative;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: #4B0082;
+    background-image: url(imagens/circleDarckPurpleBG.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -76,6 +86,59 @@ body {
     margin: -3px 0;
 }
 
+.home-conteudo p {
+    font-size: 20px;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #000000;
+    border: #da70d6 solid 2px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #da70d6;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover{
+    border: #fff;
+    background: #fff;
+    color: #da70d6;
+    box-shadow: 0 0 5px #fff;
+}
+
+.btn-box {
+        display: inline-block;
+        background: #da70d6;
+        padding: 12px 28px;
+        border-radius: 40px;
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 1px;
+        font-size: 16px;
+        font-weight: 600;
+}
+
+.btn-box:hover {
+        background: #fff;
+        color: #da70d6;
+       box-shadow:0 0 5px #fff, 0 0 25px #fff,0 0 50px #fff, 0 0 100px #fff,
+    0 0 200px #fff;
+}
+
+
 .img-home {
     align-items: center;
+    box-shadow:0 0 5px #da70d6, 0 0 25px #da70d6,0 0 50px #da70d6, 0 0 100px #da70d6,
+    0 0 200px #da70d6;
+    border-radius: 50%;
+}
+
+.maquinaDeEscrever {
+    color: #da70d6;
 }
